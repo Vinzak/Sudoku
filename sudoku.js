@@ -33,7 +33,7 @@ document.getElementById('check').addEventListener('click', () => {
   const grid = Array.from(inputs).map(input => parseInt(input.value, 10) || 0);
 
   if (isSolved(grid)) {
-    document.getElementById('message').textContent = "Din Computer er i F/K over skabet ved håndvasken";
+    document.getElementById('message').textContent = "Led i F/K over skabet ved håndvasken";
   } else {
     document.getElementById('message').textContent = "Fejl! Så nemt slipper du ikke Pernille!";
   }
